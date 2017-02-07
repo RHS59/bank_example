@@ -1,0 +1,11 @@
+<script>
+
+	setInterval(function() {
+		var poo = $('input[type=range]').val(); 
+		document.getElementById("js-output").innerHTML = poo;
+	
+	
+	}, 1000);
+
+
+</script>
