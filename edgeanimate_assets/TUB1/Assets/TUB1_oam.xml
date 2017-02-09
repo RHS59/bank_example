@@ -5,9 +5,9 @@
 
 <category name="Flash Animation"/>
 <remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
-<icon src="PosterImg_36.png" width="1000" height="400"/>
-<require type="other" src="TUBANasda.html"/>
-<require type="javascript" src="TUBANasda.js"/>
+<icon src="PosterImg_400.png" width="1000" height="400"/>
+<require type="other" src="TUBAN1.html"/>
+<require type="javascript" src="TUBAN1.js"/>
 <content></content>
 
 <properties name="Properties">
@@ -16,7 +16,7 @@
 <property name="resizable" defaultValue="true" hidden="true"/>
 <property name="centering" defaultValue="" hidden="true"/>
 <property name="scaling" defaultValue="both" hidden="true"/>
-<property name="html-page" defaultValue="TUBANasda.html" hidden="true"/>
+<property name="html-page" defaultValue="TUBAN1.html" hidden="true"/>
 <property name="target-platform" defaultValue="htmlcanvas" hidden="true"/>
 <property name="created-in" defaultValue="Adobe Animate CC" hidden="true"/>
 </properties>
