@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+
+
+<meta charset="utf-8">
+
+<title>Untitled Document</title>
+
+<!-- Jquery -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  
+<!-- FullPage -->  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/vendors/scrolloverflow.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/vendors/jquery.easings.min.js"></script>
+
+<!-- Bootstrap --> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Font Awesome -->
+
+<script src="https://use.fontawesome.com/37c607bc79.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css" />
+
+<!-- Fonts -->
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+
+
+
+</head>
+<style>
+
+#offwhite {
+	background-color: #e5e5e5;	
+}
+#money {
+	color: #9ba05c;
+	text-shadow: 4px 4px 4px #ccc;	
+}
+money {
+	color: #c2c973;	
+}
+#offgrey {
+	background-color: #b7b7b7;	
+}
+#blue {
+    background-color: #005b96;
+}
+#cobalt {
+    background-color: #03396c;
+}
+#darkblue {
+    background-color: #011f4b;
+}
+#bathwater {
+    background-color: #6497b1;
+} 
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size:18px
+	
+}
+
+
+p.regular {
+
+	font-weight: 400;
+	
+}
+
+
+p.thin {
+
+	font-weight: 300;
+	
+}
+
+
+p.bold {
+
+	font-weight: 700;
+	
+}
+
+
+p.black {
+
+	font-weight: 900;
+	
+}
+
+
+
+h1.black {
+
+	font-weight: 900;
+	font-family: 'Hammersmith One', sans-serif;
+	color : #4c4c4c;
+}
+
+svg path {
+    fill: #4c4c4c;
+}
+
+.fa-5x{
+    font-size:16em;
+}
+
+.fa-bath {
+	animation: drop 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s infinite;	
+	
+}
+</style>
+<body>
+
+
+
+<script>
+	$(document).ready(function() {
+		$('#fullpage').fullpage({
+			anchors:['Home', 'Info', 'More Info', 'Bath Time']
+		});
+	});
+</script>
+
+
+<script>
+
+</script>
+
+<div id="fullpage">
+  <div class="section" id="offwhite" data-anchor="Home">
+    	<div class="row center-block"> 
+    		<h1 class= "text-center" style="font-size:72px">LOREM IPSUM</h1>
+          <p class= "text-center"> Suspendisse lacinia dui sit amet volutpat rutrum.</p>
+    	</div>
+    </div>
+  <div class="section" id="offwhite" data-anchor="Info">
+    	<div class="row">
+       	  <p class= "text-center" style = "font-size:32px"> Suspendisse lacinia dui sit amet volutpat rutrum.</p>
+			<p class= "text-center">Vivamus magna turpis, faucibus non ultrices a, posuere interdum justo. <br>
+Curabitur a venenatis nunc. Donec condimentum lacus nec sapien blandit porttitor id sit amet elit.<br>
+Aliquam et dignissim lectus, vel porta diam. Suspendisse mollis laoreet nulla consequat dignissim.<br>
+Sed consectetur sagittis augue ut consectetur. Quisque venenatis leo nec urna tempor hendrerit.<br>
+Suspendisse tincidunt mi et sem rutrum luctus.<br>
+Sed lobortis lacus vulputate libero dictum pulvinar.<br>
+Morbi non lobortis neque. Nunc pretium odio eros, lacinia vulputate lectus aliquet a.<br>
+Quisque sagittis dolor in ex fringilla, ac feugiat nisl consectetur.<br>
+Quisque ac sem congue, convallis ex id, viverra mauris. Duis fermentum nunc viverra massa posuere, vel luctus ante semper.</p>
+		</div>
+    </div>
+	<div class="section" id="offwhite" data-anchor="More Info">
+  		<div class="row text-center">
+			<i class="fa fa-money fa-5x faa-shake animated" id="money" aria-hidden="true"></i>
+			<p class= "text-center" style = "font-size:32px"> Its YOUR money!</p>
+            <p class= "text-center"> Suspendisse lacinia dui sit amet volutpat rutrum.</p>	
+        </div>
+	</div>
+    <div class="section" id="offgrey" data-anchor="Bath Time">
+    	<div class="slide">
+        	<div class="row text-center">
+          		<object id="EdgeID" type="text/html" width="1020" height="420" data-dw-widget="Edge" data="file:///C|/Users/Hope/Documents/RS_portfolio/edgeanimate_assets/TUB1/Assets/TUBAN.html">
+          		</object>
+            </div>
+        </div>
+    	<div class="slide">
+        	<div class="row text-center">
+              <object id="EdgeID2" type="text/html" width="1020" height="420" data-dw-widget="Edge" data="file:///C|/Users/Hope/Documents/RS_portfolio/edgeanimate_assets/TUB2/Assets/TUBANasda.html">
+              </object>
+            </div>
+      </div>
+    	<div class="slide"> Slide 3 </div>
+    	<div class="slide"> Slide 4 </div>
+</div>
+</div>
+
+
+</body>
+</html>
